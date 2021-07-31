@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6E4BFAA6-0620-4B37-B154-412CFF8DF147}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FEM</RootNamespace>
+    <AssemblyName>FEM</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ESADS.Graphics, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\FEM.Graphics\ESADS.Graphics\bin\Release\ESADS.Graphics.dll</HintPath>
+    </Reference>
+    <Reference Include="FEM.Mathematics">
+      <HintPath>..\..\FEM.Math\FEM.Math\bin\Debug\FEM.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="FEM.Output">
+      <HintPath>..\FEM.Output\bin\Debug\FEM.Output.exe</HintPath>
+    </Reference>
+    <Reference Include="MathNet.Numerics">
+      <HintPath>C:\Users\Abiy\Desktop\FEM\MathNet.Numerics\Net40\MathNet.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="MWArray, Version=2.0.0.0, Culture=neutral, PublicKeyToken=e1d84a0da19db86f, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\MATLAB\R2008a\toolbox\dotnetbuilder\bin\win32\v2.0\MWArray.dll</HintPath>
+    </Reference>
+    <Reference Include="Plotting">
+      <HintPath>..\Matlab\Plotting\distrib\Plotting.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="XMLReader">
+      <HintPath>C:\Program Files\Computers and Structures\SAP2000 14\XMLReader.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="e3DStressAnalysis.cs" />
+    <Compile Include="eAnalysis.cs" />
+    <Compile Include="eAnalysisType.cs" />
+    <Compile Include="eAreaBC.cs" />
+    <Compile Include="eAreaElement.cs" />
+    <Compile Include="eBC.cs" />
+    <Compile Include="e2DModel.cs" />
+    <Compile Include="eBCs.cs" />
+    <Compile Include="eBCType.cs" />
+    <Compile Include="eBeam.cs" />
+    <Compile Include="eBeamElement.cs" />
+    <Compile Include="eBiLinearRectangular.cs" />
+    <Compile Include="eCubic.cs" />
+    <Compile Include="eDofGroups.cs" />
+    <Compile Include="eDOFs.cs" />
+    <Compile Include="eDofTypes.cs" />
+    <Compile Include="eDomainType.cs" />
+    <Compile Include="eEigenValueAnalysis.cs" />
+    <Compile Include="eElement.cs" />
+    <Compile Include="eElements.cs" />
+    <Compile Include="eElementGroup.cs" />
+    <Compile Include="e1DModel.cs" />
+    <Compile Include="eInitialCondition.cs" />
+    <Compile Include="eMassMatrixType.cs" />
+    <Compile Include="eModalAnalysis.cs" />
+    <Compile Include="ePlane3N.cs" />
+    <Compile Include="ePlaneStressElement.cs" />
+    <Compile Include="eProblemType.cs" />
+    <Compile Include="eSteadyStateAnalysis.cs" />
+    <Compile Include="eTimeIntegrationTechnique.cs" />
+    <Compile Include="eTransientAnalysis.cs" />
+    <Compile Include="eLineBC.cs" />
+    <Compile Include="eMeshElementType.cs" />
+    <Compile Include="eFrame.cs" />
+    <Compile Include="eFrameElement.cs" />
+    <Compile Include="eLinear.cs" />
+    <Compile Include="eLinearTriangular.cs" />
+    <Compile Include="eLineElement.cs" />
+    <Compile Include="eMath.cs" />
+    <Compile Include="eMesh.cs" />
+    <Compile Include="eMeshingMethod.cs" />
+    <Compile Include="eModel.cs" />
+    <Compile Include="eModelType.cs" />
+    <Compile Include="eNode.cs" />
+    <Compile Include="eNodes.cs" />
+    <Compile Include="eNodeType.cs" />
+    <Compile Include="ePlaneStress.cs" />
+    <Compile Include="ePlate.cs" />
+    <Compile Include="ePlane4N.cs" />
+    <Compile Include="ePoint.cs" />
+    <Compile Include="ePointBC.cs" />
+    <Compile Include="eQuadratic.cs" />
+    <Compile Include="eShapeFucnType.cs" />
+    <Compile Include="eTruss.cs" />
+    <Compile Include="eTrussElement.cs" />
+    <Compile Include="eTrussElement2D.cs" />
+    <Compile Include="eTrussElement1D.cs" />
+    <Compile Include="eTrussElement3D.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="e3DModel.cs" />
+    <Compile Include="eSolidElement.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="FEM Class Diagram.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

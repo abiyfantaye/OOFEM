@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FEM.e1DModel" Collapsed="true">
+    <Position X="0.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAACAAAAAAAQEAAAAAAIAAIAAQCAAAAAA=</HashCode>
+      <FileName>e1DModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEM.e2DModel" Collapsed="true">
+    <Position X="6.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAACAABgBAAAAAAAAAAAgGAABAAAAAAAQAAKAAAA=</HashCode>
+      <FileName>e2DModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEM.e3DModel" Collapsed="true">
+    <Position X="12" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>e3DModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEM.e3DStressAnalysis" Collapsed="true">
+    <Position X="12" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>e3DStressAnalysis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEM.eAnalysis" Collapsed="true">
+    <Position X="3.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAgAQAABACAAAQCAAEhAAAACEAAEIAIAAI=</HashCode>
+      <FileName>eAnalysis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEM.eAreaBC" Collapsed="true">
+    <Position X="12.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>eAreaBC.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEM.eAreaElement" Collapsed="true">
+    <Position X="25.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAgAAAAAAAAAAAAAAAAAAAIAAAQAgBAE=</HashCode>
+      <FileName>eAreaElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEM.eBC" Collapsed="true">
+    <Position X="12.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAACAAAAAqAACABAAAAYAAAAEAAEAAAASAAgQIAA=</HashCode>
+      <FileName>eBC.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEM.eBCs" Collapsed="true">
+    <Position X="31" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgABCAAAAAgAAAAACAAAAAQAAAAQQAAAQAAAAAAAAAA=</HashCode>
+      <FileName>eBCs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEM.eBeam" Collapsed="true">
+    <Position X="0.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>eBeam.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEM.eBeamElement" Collapsed="true">
+    <Position X="17.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>eBeamElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEM.eBiLinearRectangular" Collapsed="true">
+    <Position X="28.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAgAAAAAAAAIAAAAAgBAA=</HashCode>
+      <FileName>eBiLinearRectangular.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEM.eCubic" Collapsed="true">
+    <Position X="19.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAABAA=</HashCode>
+      <FileName>eCubic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEM.eDOFs" Collapsed="true">
+    <Position X="32.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAEAAAAAAAQCAAQAAQAAAAAAAAAAAEAAAAAAAI=</HashCode>
+      <FileName>eDOFs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEM.eEigenValueAnalysis" Collapsed="true">
+    <Position X="0.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAACAAAAAAAAAI=</HashCode>
+      <FileName>eEigenValueAnalysis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEM.eElement" Collapsed="true">
+    <Position X="15" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQMgAACAAAAAggAAAAAEYQQRAAAEAAAAAIIIAIAgJAA=</HashCode>
+      <FileName>eElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEM.eElements" Collapsed="true">
+    <Position X="34.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAABBhEACAAABAQAAAAQAAAAAAAAAAAABAA=</HashCode>
+      <FileName>eElements.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEM.eFrame" Collapsed="true">
+    <Position X="7.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>eFrame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEM.eFrameElement" Collapsed="true">
+    <Position X="3.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>eFrameElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEM.eInitialCondition" Collapsed="true">
+    <Position X="36.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAACAAAgAAAAIAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>eInitialCondition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEM.eLinear" Collapsed="true">
+    <Position X="15" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAABAA=</HashCode>
+      <FileName>eLinear.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEM.eLinearTriangular" Collapsed="true">
+    <Position X="21.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAgBAA=</HashCode>
+      <FileName>eLinearTriangular.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEM.eLineBC" Collapsed="true">
+    <Position X="10.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIgQAABAAAABAAAAAAAAACEAAAAAAAAA=</HashCode>
+      <FileName>eLineBC.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEM.eLineElement" Collapsed="true">
+    <Position X="11.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAEAAAABAAgAAAAAAAIAAgAAgBAA=</HashCode>
+      <FileName>eLineElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEM.eMath" Collapsed="true">
+    <Position X="31" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAABAAEAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>eMath.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEM.eMesh" Collapsed="true">
+    <Position X="32.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAcAJAAFAiRAQAIAAAIAAAQAJAiCAAAEAQAABAOICBQ=</HashCode>
+      <FileName>eMesh.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEM.eModalAnalysis" Collapsed="true">
+    <Position X="2.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAACAAAAAAAAAI=</HashCode>
+      <FileName>eModalAnalysis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEM.eModel" Collapsed="true">
+    <Position X="6.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgCAAAAAhAAhgIAAASAAQAAgIFAAAEAQAQBAAAIAQ=</HashCode>
+      <FileName>eModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEM.eNode" Collapsed="true">
+    <Position X="34.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAQAgAAAAAAAAQAAADEACAAUAAgAAgAYAE=</HashCode>
+      <FileName>eNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEM.eNodes" Collapsed="true">
+    <Position X="36.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAJwAACAECAASAAAAAACAAQAACAAAIIAA=</HashCode>
+      <FileName>eNodes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEM.ePlane3N" Collapsed="true">
+    <Position X="24" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAABAAACAAAAAAAAAAAAAAAAAIAAAAEAAAA=</HashCode>
+      <FileName>ePlane3N.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEM.ePlane4N" Collapsed="true">
+    <Position X="26.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAYBgAAAAABAAAAAAAAAAAAgAAAAAAAAIAAAEAoBAA=</HashCode>
+      <FileName>ePlane4N.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEM.ePlaneStress" Collapsed="true">
+    <Position X="3" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABgBAAAAAAAIQABAEAAAAACAAAAAACAAAAA=</HashCode>
+      <FileName>ePlaneStress.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEM.ePlaneStressElement" Collapsed="true">
+    <Position X="25.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGAAIAAAACABAAACAAAAAAAAAAAAAAAEQBAABgAgBAA=</HashCode>
+      <FileName>ePlaneStressElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEM.ePlate" Collapsed="true">
+    <Position X="5.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ePlate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEM.ePoint" Collapsed="true">
+    <Position X="31" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAABAAAAAAAAAgAAAAAAAAABAAIAAAABgAQAAZiE=</HashCode>
+      <FileName>ePoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEM.ePointBC" Collapsed="true">
+    <Position X="15" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAABAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>ePointBC.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEM.eQuadratic" Collapsed="true">
+    <Position X="12.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAABAA=</HashCode>
+      <FileName>eQuadratic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEM.eSolidElement" Collapsed="true">
+    <Position X="1.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAIAAAAAgBAA=</HashCode>
+      <FileName>eSolidElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEM.eSteadyStateAnalysis" Collapsed="true">
+    <Position X="5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAACAAAAAAAAAI=</HashCode>
+      <FileName>eSteadyStateAnalysis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEM.eTransientAnalysis" Collapsed="true">
+    <Position X="7.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>NQCBAACAACAAgEAAAACKACAAAiIgABAkmBACEBoAA1I=</HashCode>
+      <FileName>eTransientAnalysis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEM.eTruss" Collapsed="true">
+    <Position X="9.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAEAAAAAAACAAAAAAAABAAA=</HashCode>
+      <FileName>eTruss.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEM.eTrussElement" Collapsed="true">
+    <Position X="8.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAgABAAIAAQAEAAAAI0AAAAA=</HashCode>
+      <FileName>eTrussElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEM.eTrussElement1D" Collapsed="true">
+    <Position X="6" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAgBAA=</HashCode>
+      <FileName>eTrussElement1D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEM.eTrussElement2D" Collapsed="true">
+    <Position X="8.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAACAACAAgAAAACAAMAAAABkhAA=</HashCode>
+      <FileName>eTrussElement2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEM.eTrussElement3D" Collapsed="true">
+    <Position X="10.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>eTrussElement3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="FEM.eAnalysisType" Collapsed="true">
+    <Position X="31" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAACA=</HashCode>
+      <FileName>eAnalysisType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FEM.eBCType" Collapsed="true">
+    <Position X="32.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAEAAAA=</HashCode>
+      <FileName>eBCType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FEM.eDofGroups" Collapsed="true">
+    <Position X="34.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAIACAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>eDofGroups.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FEM.eDOFTypes" Collapsed="true">
+    <Position X="36.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAABQQAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>eDofTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FEM.eDomainType" Collapsed="true">
+    <Position X="31" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAEAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>eDomainType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FEM.eElementGroup" Collapsed="true">
+    <Position X="32.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAQABAAA=</HashCode>
+      <FileName>eElementGroup.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FEM.eMassMatrixType" Collapsed="true">
+    <Position X="34.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>eMassMatrixType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FEM.eMeshElementType" Collapsed="true">
+    <Position X="36.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACBAAAAABAAACAAAAAAAgAAAAAAAAAAAAAAIAACAAA=</HashCode>
+      <FileName>eMeshElementType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FEM.eMeshingMethod" Collapsed="true">
+    <Position X="31" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>eMeshingMethod.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FEM.eModelType" Collapsed="true">
+    <Position X="32.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAgAAAAAAAAAAAAAECAAQAAAAAAQQAAAAAgAAAA=</HashCode>
+      <FileName>eModelType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FEM.eNodeType" Collapsed="true">
+    <Position X="34.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>eNodeType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FEM.eProblemType" Collapsed="true">
+    <Position X="36.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>eProblemType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FEM.eShapeFucnType" Collapsed="true">
+    <Position X="31" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAEAAAAAAAAAAAAAAIAAAAABAAAA=</HashCode>
+      <FileName>eShapeFucnType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FEM.eTimeIntegrationTechnique" Collapsed="true">
+    <Position X="32.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAACAAAAAAAAAABA=</HashCode>
+      <FileName>eTimeIntegrationTechnique.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FEM.Mathematics.eGaussQuadrature" Collapsed="true">
+    <Position X="13" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>eGaussQuadrature.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEM.Mathematics.eConst" Collapsed="true">
+    <Position X="3.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAACAAAAAgAAAAAAA=</HashCode>
+      <FileName>eConst.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEM.Mathematics.eCos" Collapsed="true">
+    <Position X="8.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>eCos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEM.Mathematics.eFunction" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAgEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>eFunction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEM.Mathematics.ePolynomial" Collapsed="true">
+    <Position X="6" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAASAGAAAkAAAkAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>ePolynomial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEM.Mathematics.eSin" Collapsed="true">
+    <Position X="10.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>eSin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FEM.Mathematics.eTrig" Collapsed="true">
+    <Position X="9.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgAQAAAAAAAAA=</HashCode>
+      <FileName>eTrig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="FEM.Mathematics.eSpaceType">
+    <Position X="13.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAEAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>eSpaceType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
